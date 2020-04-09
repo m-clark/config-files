@@ -1,0 +1,43 @@
+---
+title: "Title"
+description: |
+  Something else
+author:
+  - name: Michael Clark
+    url: https://m-clark.github.io
+date: '`r Sys.Date()`'
+# preview: 
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    # css: styles.css
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  comment = NA,
+  R.options = list(width = 120),
+  cache.rebuild = FALSE,
+  cache = FALSE,
+  fig.align = 'center',
+  fig.asp = .7,
+  dev = 'svglite',
+  dev.args = list(bg = 'transparent')
+)
+
+library(tidyverse)
+library(kableExtra)
+library(scico)
+
+kable_df <- function(..., digits=3) {
+  kable(..., digits=digits) %>% 
+    kable_styling(full_width = F)
+}
+
+rnd = tidyext::rnd
+```
