@@ -1,0 +1,46 @@
+ bookdown::gitbook:
+    css: [css/book.css, 'https://use.fontawesome.com/releases/v5.12.0/css/all.css']  # update this
+    font-import: https://fonts.googleapis.com/css?family=Roboto|Open+Sans            # add as needed
+    font-family: 'Roboto' 
+    number_sections: false
+    split_by: rmd
+    config:
+      edit : null
+      download: null
+      search: yes
+      sharing:
+        facebook: no
+        twitter: no
+        google: no
+        weibo: no
+        instapper: no
+        vk: no
+        all: ['twitter', 'facebook', 'weibo', 'instapaper']
+      toc:
+        depth: 2
+        collapse: section
+        scroll_highlight: yes
+        before: |
+          <li class='before'><a href="./">Title</a></li>
+        after: |
+         <li class='after'">
+            <a href="https://m-clark.github.io/" aria-label='Author Website Link'>
+               <img src="img/mc_logo.png" style="width:25%; padding:0px 0; display:block; margin: 0 auto;" alt="MC logo">
+            </a>
+         </li>
+         <li class='after'">
+            <div style='text-align:center'>
+               <a href="https://github.com/m-clark/" aria-label='GitHub Link'>
+                  <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+               </a>
+            </div>
+         </li>
+         <li class='after'">
+            <div style='text-align:center'>
+               <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" aria-label="Creative commons CCBYSA link">
+                  <i class="fab fa-creative-commons fa-lg"></i> 
+                  <i class="fab fa-creative-commons-by fa-lg"></i> 
+                  <i class="fab fa-creative-commons-sa fa-lg"></i>
+               </a>
+            </div>
+         </li>

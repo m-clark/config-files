@@ -13,17 +13,13 @@
 vignettes/*.html
 
 # ignore generated html tex files,
-*.html
+# *.html
 *.tex
  
 
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
 
-
-# data
-Data/
-results/
 
 # bs files created by system
 .DS_Store
@@ -33,13 +29,18 @@ Thumbs.db
 
 # Data files
 .rdata
-
-#ignore cache
-*_cache
-
+Data/
+results/
 *.zip
 
-# temp word excel
+# ignore cache
+*_cache
+
+
+
+
+# MS temp files
+
 # Word temporary
 ~$*.doc*
 
