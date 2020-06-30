@@ -250,7 +250,7 @@ i {
 
 h1, h2, h3, h4, h5 {
   color:#990024;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', Roboto, "Helvetica Neue", Arial, Sans;
 }
 
 /* notes */

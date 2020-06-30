@@ -27,7 +27,7 @@ Thumbs.db
 .smb*
 
 
-# Data files
+# Data files (remove/keep as desired)
 .rdata
 Data/
 results/
@@ -35,9 +35,6 @@ results/
 
 # ignore cache
 *_cache
-
-
-
 
 # MS temp files
 
