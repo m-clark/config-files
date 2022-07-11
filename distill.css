@@ -58,6 +58,9 @@ d-article table th, d-article table td {
     color: #990024;
 }
 
+
+/* to hack the code font-family, you have to change the template.v\*.js file in distill/www/distill/ from Andale Mono */
+
 .d-code {
   font-family: 'Roboto Mono', 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', 'Courier New', monospace;
 }
@@ -72,11 +75,11 @@ blockquote {
 }
 
 .emph {
-  color: #0077d6;
+  color: #990024BF;
 }
 
 .pack {
-  color: #990071; /*#AC9CFF #e41a1c*/
+  color: #1f65b7; /*#AC9CFF #e41a1c*/
   font-weight: 500;
 }
 
